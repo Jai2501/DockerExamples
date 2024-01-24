@@ -1,0 +1,12 @@
+{
+    "name": "sample",
+    "version": "1.0.0",
+    "description": "A sample JS App",
+    "main": "sample.js",
+    "scripts": {
+      "start": "node sample.js"
+    },
+    "author": "Jai",
+    "license": "MIT"
+  }
+  
