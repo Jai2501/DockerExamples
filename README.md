@@ -30,7 +30,7 @@ cd Docker-Python/Advanced
 
 ## Building a Docker Image
 
-Command Format:
+### Command Format:
 
 ```
 docker build -t "image-name" "."
@@ -42,7 +42,7 @@ docker build -t "image-name" "."
 
 > `-t` is to specify a tag for the image
 
-Example: To build the Python Example
+### Example: To build the Python Example
 
 ```
 docker build -t tic3001-sample-python .
@@ -50,7 +50,7 @@ docker build -t tic3001-sample-python .
 
 ## Running a Docker Container
 
-Command Format:
+### Command Format:
 
 ```
 docker run -p PORT:PORT -d "image-name"
@@ -64,7 +64,7 @@ docker run -p PORT:PORT -d "image-name"
 
 > `-d` is to run in detached mode
 
-Example: To run the Python Example
+### Example: To run the Python Example
 
 ```
 docker run -p 3000:3000 -d tic3001-sample-python
@@ -76,10 +76,32 @@ Use the command `docker ps` to obtain the container ID.
 
 Run `docker stop "container_id"` to stop the container.
 
-Example: To stop the Python Example
+### Example: To stop the Python Example
 
 ```
 docker stop 1a2b3c4d5e6f
 ```
 
 > The container ID is unique and the above is just a dummy container ID
+
+## To Run the Examples without Docker
+
+### JavaScript
+
+Ensure you have node installed on your system.
+
+#### Command Format
+
+```
+node file_name.js
+```
+
+### Python
+
+Ensure you have Python3 installed on your system.
+
+#### Command Format
+
+```
+python3 file_name.py
+```
