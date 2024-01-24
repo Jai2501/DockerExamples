@@ -16,10 +16,16 @@ For the Advanced JavaScript Example
 cd Docker-JavaScript/Advanced
 ```
 
-For the Python Example
+For the Simple Python Example
 
 ```
-cd Docker-Python
+cd Docker-Python/Simple
+```
+
+For the Advanced Python Example
+
+```
+cd Docker-Python/Advanced
 ```
 
 ## Building a Docker Image
@@ -53,6 +59,8 @@ docker run -p PORT:PORT -d "image-name"
 ### Flags
 
 > `-p` is to map port number from Container to PC
+
+- Usually Port Numbers 0 - 1023 are reserved by the OS, and should be avoided
 
 > `-d` is to run in detached mode
 
