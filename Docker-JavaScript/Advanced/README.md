@@ -1,6 +1,6 @@
 # Overview
 
-This code creates a basic HTTP server using Node.js. It is designed to respond to HTTP requests by sending a plain text response "Hello, World! This is a Web Service". This server is intended to be a simple example of how to use Node.js for creating web services, and also demonstrate how Docker can be utilised for creating such services.
+This code creates a basic HTTP server using Node.js. It is designed to respond to HTTP requests by sending a plain text response "Hello, World! This is a Web Service". This server is intended to be a simple example of how to use Node.js for creating web services, and also demonstrate how Docker can be utilised for containerizing such services.
 
 # Features
 
@@ -22,7 +22,7 @@ Node.js must be installed on your system. You can download it from Node.js offic
 
 - Open a terminal or command prompt.
 - Navigate to the directory where server.js is located.
-- Run the command `node server.js` or follow the [Docker Guide](https://github.com/Jai2501/DockerExamples/blob/main/README.md) to run it using Docker
+- Run the command `node server.js` or follow the [Docker Guide](https://github.com/Jai2501/DockerExamples/blob/main/README.md) to run using Docker
 - You should see a message indicating that the server is running, along with the current working directory.
 
 ## Interact with the Server
