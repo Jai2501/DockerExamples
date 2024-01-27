@@ -36,7 +36,7 @@ Notice the output and how the CWD differs from the local execution.
 ## Understanding the Output
 
 - When run locally, the CWD printed will be the directory from where you run the script.
-- Inside a Docker container, the CWD will reflect the container's internal directory, that is /app as set in the Dockerfile.
+- Inside a Docker container, the CWD will reflect the container's internal directory, that is `/app` as set in the Dockerfile.
 
 # Troubleshooting
 
